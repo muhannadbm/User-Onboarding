@@ -14,7 +14,7 @@ export default function Form(props){
             <input name="password" type="password" onChange={change} value = {password}/></label>
             <label>Terms of Service:
             <input name="term" type="checkbox" onChange={change} checked={term}/> </label>
-            <button disabled={disabled}>Submit</button>
+            <button id='submit' disabled={disabled}>Submit</button>
             
         </form>
         <div className="errors">
