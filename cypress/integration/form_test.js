@@ -26,7 +26,7 @@ describe('Forms App',()=>{
         emailInput().type(' ')
         emailInput().blur()
         errors().children().should('have.text','')
-    })
+    }) 
 })
 
 
